@@ -4,6 +4,31 @@ A new Flutter project.
 
 ## Getting Started
 
+### 1. Install Dependencies
+Run the following command to install all required dependencies:
+```bash
+flutter pub get
+```
+
+### 2. Generate Code (Only test)
+```bash
+dart run build_runner build --delete-conflicting-outputs   
+```
+
+### 3. VS Code Configuration
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fibo",
+            "request": "launch",
+            "type": "dart"
+        },
+    ]
+}
+```
+
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
